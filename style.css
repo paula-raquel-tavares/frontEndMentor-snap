@@ -1,0 +1,227 @@
+*{margin: 0;
+  padding:0;
+}
+body{
+    max-width: 100%;
+}
+button{
+    font-family:'Epilogue', sans-serif;
+    font-weight:500;
+    padding:15px;
+    border-radius:10px;
+    border:2px solid transparent;
+    background-color:hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 41%);
+    transition:ease-in-out 0.3s;
+}
+.active,
+button:hover{
+    border:2px solid  hsl(0, 0%, 41%);
+    cursor: pointer;
+    font-weight:700;
+}
+.text-button{
+    background-color:hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 98%);
+    font-family:'Epilogue', sans-serif;
+    font-weight:500;
+    padding:15px;
+    border:2px solid transparent;
+    transition:ease-in-out 0.5s;
+}
+.text-button:hover{
+    font-family:'Epilogue', sans-serif;
+    border:2px solid  hsl(0, 0%, 41%);
+    background-color:hsl(0, 0%, 98%);
+    color:hsl(0, 0%, 8%);
+    cursor: pointer;
+    font-weight: 700;
+  
+}
+.slogan{
+    margin-right:30px
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 20px;
+}
+
+#header__left{
+    display: flex;
+    align-items: center;
+}
+.menu-item{
+    font-family:'Epilogue', sans-serif;
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;  
+}
+.menu-item a{
+    padding: 10px;
+    text-decoration:none;
+    color:hsl(0, 0%, 41%);
+    border:2px solid transparent;
+    border-radius:10px;
+}
+.menu-item a:hover{
+    border-radius:10px;
+    cursor: pointer;
+    color:hsl(0, 0%, 8%);
+    transition:ease-in-out 0.3s;
+}
+
+
+.submenu{
+    list-style: none;
+    color: hsl(0, 0%, 41%);
+    border:2px solid transparent;
+    border-radius:10px;
+    position: absolute;
+    top: 60px;;
+    background-color:hsl(0, 0%, 98%);
+    padding:10px;
+    display:none;
+}
+.submenu-item .item:hover{
+    cursor: pointer;
+}
+ 
+.menu-item:hover .submenu{
+    display: block;
+}
+
+.menu-item .menu-item__icon{
+    transition:ease-in-out 0.3s;
+}
+
+.menu-item:hover .menu-item__icon{
+    transform: rotate(180deg);
+}
+   
+#sections{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align:left;
+    justify-content: space-evenly;
+}
+
+.content{
+    margin: 20px 0;
+}
+.content .title{
+    font-family:'Epilogue', sans-serif;
+    font-weight:700;
+    font-size:70px;
+}
+.content .text{
+    font-family:'Epilogue', sans-serif;
+    font-weight:500;
+    color: hsl(0, 0%, 41%);
+    font-size:18px;
+}
+.brands{
+    margin-top:70px;
+}
+.brands img{
+    margin-left:25px;
+    width: 15%;
+}
+.brands .b {
+    width: 10%;
+}
+.poster{
+    width:30vw;
+    height:80vh;
+    object-fit: cover;
+}
+.attribution{
+    margin-top:-17px;
+}
+#menu-icon{
+    display:none;
+        
+}
+
+
+
+/*/Responsividade/*/
+
+@media screen and (max-width:375px){
+    .content{
+        text-align:center;
+    }
+    #sections {
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    nav,
+    .buttons{
+        display:none;
+    }
+    .poster{
+        display: none;        
+    }
+    .background-img{
+        background-image:url("./images/image-hero-mobile.png");
+        width:100vw;
+        height:40vh;
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+    .content .title{
+        font-size: 45px;
+    }
+
+    .content .text {
+        font-size:27px;
+        margin-bottom: -13px;
+    }
+
+    .brands{
+        margin:-7px;
+        margin-top:3px;
+    }
+    .brands img{
+        width:18%;
+    }
+    .brands .b {
+        width: 13%;
+    }
+    .text-button{
+        margin-bottom:12px;
+        padding:20px;
+    }
+    header #menu-icon{
+        display:block;
+        width:45px;
+        
+    }
+
+}
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
