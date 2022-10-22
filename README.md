@@ -9,6 +9,7 @@ Eu fiz sozinha a construção do HTML e CSS deste projeto,tendo o frontendmentor
 
 # Imagens
 ![desktop](https://user-images.githubusercontent.com/108530716/197345123-465d705d-e813-47dc-894e-856b32b3a433.PNG)
+![image](https://user-images.githubusercontent.com/108530716/197345357-bcf1da6f-612a-4fc0-8bd0-8bf5fb60d8ad.png)
 ![mobile-img1](https://user-images.githubusercontent.com/108530716/197345134-f8e901f1-bcf7-4328-a873-d5c88c97b418.PNG)
 ![mobile-img2](https://user-images.githubusercontent.com/108530716/197345142-d7752b2d-3785-4eb0-86ff-58be10775e5b.PNG)
 
